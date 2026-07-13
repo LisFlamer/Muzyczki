@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Muzyczki Emci</title>
+</head>
+<body style="background-color: black; color: white">
+<p style="text-align: center; color: blue; font-size: 94px;"> Muzyczki</p><br>
+<span style="font-size: x-large">Miłego słuchania :)</span><br>
+<fieldset>
+	<video id="controls" poster="obrazek.jpg" width="520" height="240">
+		<source src="Nora En Pure-Arnensee, Switzerland.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	</video>
+	<menu>
+		<button type="button" onclick="document.getElementById('controls')[document.getElementById('controls').paused || document.getElementById('controls').ended ? 'play' : 'pause']()">Play/Pause</button>
+		<button type="button" onclick="document.getElementById('controls').muted = !document.getElementById('controls').muted">Mute/Unmute</button>
+		<input type="range" min="0.0" max="1.0" step="0.1" value="1.0" onchange="document.getElementById('controls').volume = this.value">
+	</menu>
+</fieldset><br>
+<fieldset>
+	<video id="controlss" poster="obrazek.jpg" width="520" height="240">
+		<source src="Hollow Knight OST.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	</video>
+	<menu>
+		<button type="button" onclick="document.getElementById('controlss')[document.getElementById('controlss').paused || document.getElementById('controlss').ended ? 'play' : 'pause']()">Play/Pause</button>
+		<button type="button" onclick="document.getElementById('controlss').muted = !document.getElementById('controlss').muted">Mute/Unmute</button>
+		<input type="range" min="0.0" max="1.0" step="0.1" value="1.0" onchange="document.getElementById('controlss').volume = this.value">
+	</menu>
+</fieldset><br>
+<fieldset>
+	<video id="controlsss" poster="obrazek.jpg" width="520" height="240">
+		<source src="Hollow Knight_ Silksong OST.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+	</video>
+	<menu>
+		<button type="button" onclick="document.getElementById('controlsss')[document.getElementById('controlsss').paused || document.getElementById('controlsss').ended ? 'play' : 'pause']()">Play/Pause</button>
+		<button type="button" onclick="document.getElementById('controlsss').muted = !document.getElementById('controlsss').muted">Mute/Unmute</button>
+		<input type="range" min="0.0" max="1.0" step="0.1" value="1.0" onchange="document.getElementById('controlsss').volume = this.value">
+	</menu>
+</fieldset><br>
+<div style="text-align: center"><img src="H:\01 - pobrane z internetu\Notepad stuff\s0444.png" alt="Ups, coś jest nie tak" width="200" height="200"></div>
+</body>
+</html>
